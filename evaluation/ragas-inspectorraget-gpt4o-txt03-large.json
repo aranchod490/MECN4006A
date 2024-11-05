@@ -1,0 +1,3338 @@
+{
+    "name": "Ragas for OpenAI GPT4o with txt-03-large Embeddings",
+    "models": [
+        {
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "name": "GPT-4o/txt-03-large",
+            "owner": "OpenAI"
+        }
+    ],
+    "metrics": [
+        {
+            "name": "faithfulness",
+            "display_name": "Faithfulness",
+            "description": "Faithfulness",
+            "author": "algorithm",
+            "type": "numerical",
+            "aggregator": "average",
+            "range": [
+                0,
+                1.0,
+                0.1
+            ]
+        },
+        {
+            "name": "answer_relevancy",
+            "display_name": "Answer Relevancy",
+            "description": "Answer Relevancy",
+            "author": "algorithm",
+            "type": "numerical",
+            "aggregator": "average",
+            "range": [
+                0,
+                1.0,
+                0.1
+            ]
+        },
+        {
+            "name": "context_precision",
+            "display_name": "Context Precision",
+            "description": "Context Precision",
+            "author": "algorithm",
+            "type": "numerical",
+            "aggregator": "average",
+            "range": [
+                0,
+                1.0,
+                0.1
+            ]
+        },
+        {
+            "name": "context_recall",
+            "display_name": "Context Recall",
+            "description": "Context Recall",
+            "author": "algorithm",
+            "type": "numerical",
+            "aggregator": "average",
+            "range": [
+                0,
+                1.0,
+                0.1
+            ]
+        }
+    ],
+    "documents": [
+        {
+            "document_id": "0",
+            "text": "Document 239: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.\nTime Series Decomposition\n\u2022Identifying these elements and separating the time series \ndata into these components is known as decomposition\n\u2022Seasonal variation may be either additive or multiplicative\n\u2022Additive:  Forecast including trend and seasonal = Trend + Seasonal\n\u2022Multiplicative: Forecast including trend and seasonal = Trend \u00d7Seasonal \nfactor\n18-30Exhibit 18.9"
+        },
+        {
+            "document_id": "1",
+            "text": "Document 143: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Questions Continued\n7.In order to cope with high levels of supply uncertainty, a\nfirm would use this strategy to reduce risk\n8.Used to describe functions related to the flow ofmaterial in a supply chain\n9.When a firm works with suppliers to look foropportunities to save money and benefit theenvironment\n10.Refers to an estimate of the cost of an item thatincludes all costs related to the procurement and use ofan item, including the costs of disposing after its usefullife\n16-21"
+        },
+        {
+            "document_id": "2",
+            "text": "Document 92: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Key Metrics: Time\n\u2022Takt Time = Demand Rate\n\u2022Pace of processing to match pace of customer need.\n\u2022Rate for completing work based on customer need.\n\u2022Takt time =Effective working time pershift\nCustomer requirement pershift\n\u2022One eight hour shift over which 30 patients where administered \ntreatment.\n\u2022420 minutes/30 patient visits = 14 minutes per patient\n\u2022What resources will be needed to meet demand?\n13 \u00a9 2015 PCPI Foundation. All rights reserved."
+        },
+        {
+            "document_id": "3",
+            "text": "Document 135: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Reasons to Outsource and the Resulting \nBenefits\n16-13Exhibit 16.5"
+        },
+        {
+            "document_id": "4",
+            "text": "Document 275: 25\nIn the service industry, an enterprise resource planning (ERP) system is a vital \ntool as many moving parts, must work in sync every day to ensure that the \norganization operates at its optimum level.\nListed below are five ways ERP streamlines hotel and resort operations:\n\u2022Room booking system;\n\u2022Guest management;\n\u2022Front -desk efficiency;\n\u2022Inventory management; and\n\u2022Housekeeping, laundry, and maintenance."
+        },
+        {
+            "document_id": "5",
+            "text": "Document 178: adjust the system to take into account spike demands, increasing demand \ntrends and conversely, decreasing demand trends.\nThe best systems are systems where signals are not lost, misunderstood or \nmisinterpreted.  That is why Kanban systems are so appealing.  The loss of \ndexterity in manual systems only requires one person to be distracted, one \ncard to be misplaced or turnover of a key individual to create a hole in the \nprocess.  Systems that have a great deal of human interaction such as \nmanual kanban systems require a stringent system of checks and balances \nto ensure that communication is always taking place.\nWe can point to a wealth of case studies that demonstrate the value of \neKanban systems. They reduce inventory which can lead to significant cost\n\nDocument 182: information.  These types of adjustments can create great variation throughout \nthe supply chain when made simultaneously, or when a slight delay in one area \nhas the effect of a greater delay in a later step.  \nAn eKanban system sending real-time demand signals and providing \ncontinuous status updates that are visible throughout the plant, can greatly \nreduce the need for physical interactions and ultimately, variability. \nBuilding Trust in the System\neKanbans can serve to create one source of truth throughout the system.  As \neKanban signaling is utilized, the amount of variability throughout the process is \nreduced and each step begins to trust the previous step.  This reduces the need \nto add extra protection everywhere in the supply chain.  eKanban\n\nDocument 179: to ensure that communication is always taking place.\nWe can point to a wealth of case studies that demonstrate the value of \neKanban systems. They reduce inventory which can lead to significant cost \nsavings; they shorten lead times, purchase order cycles and more. A hidden \nand often untold benefit, however, is an elevated level of communication \nacross the plant floor. And while the capabilities of eKanban software \npackages differ, consider the value of those that provide instantaneous \ndemand signals across the organization and extended supply chain \u2013 signals \nthat are visible and can be tracked by all. Everyone is on the same page, \neven suppliers who have a portal into the system that empowers them to \nreplenish items based on the parameters you have set."
+        },
+        {
+            "document_id": "6",
+            "text": "Document 318: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Opportunity Flow Diagram (Improve)\n12-19\nExhibit 12.5\n\nDocument 313: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Flowchart (Define)\n12-14\nExhibit 12.5"
+        },
+        {
+            "document_id": "7",
+            "text": "Document 127: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.The Bullwhip Effect\n\u2022Bullwhip effect : phenomenon of variability magnification \nas we move from the customer to the producer in the \nsupply chain\n\u2022A slight change in consumer sales ripples backward as magnified \noscillations upstream, like the result of a flick of a bullwhip handle\n\u2022Forward buying: retailers responding to a temporary \nprice cut by stocking up\n\u2022Continuous replenishment : inventory is replaced \nfrequently, as part of an ongoing process\n16-5"
+        },
+        {
+            "document_id": "8",
+            "text": "Document 259: 11\nAfter the BOM information is accessed, the next information the MRP system \nrequires to complete the planning job is the inventory records. \nThere are two types of inventory records for this discussion: on -hand \ninventory and on -order inventory.\nThe importance of data accuracy becomes more critical due to data \ndependency. The BOM records must be impeccable and inventory records \nmust be pristine. \nMinimally acceptable thresholds for this accuracy require BOM accuracy to be \nat 98%. This means that 98% of the BOMs are perfect."
+        },
+        {
+            "document_id": "9",
+            "text": "Document 228: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Exponential Forecasts vs. Actual Demand \nfor Product over Time Showing Forecast Lag\n18-19Exhibit 18.5"
+        },
+        {
+            "document_id": "10",
+            "text": "Document 216: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Components of Demand\n18-7 Figure 4.1\n Principles of Operations Management by Heizer and Render \u00a9 2014 Pearson Education"
+        },
+        {
+            "document_id": "11",
+            "text": "Document 116: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Example 11.4: The Balabus (\u201cTourist \nBus\u201d) in Paris\n\u2022Two hours for the route during peak traffic\n\u2022Route has 60 stops\n\u2022Each bus has seating capacity of 50\n\u2022Another 30 passengers can stand\n\u2022Busy much of the day\n11-16\n\nDocument 118: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Example 11.4: Capacity\n\u2022Each bus has total capacity of 80 passengers\n\u202250 seated\n\u202230 standing\n\u202230 buses can accommodate\u2026\n\u20221,500 seated\n\u20222,400 total\n11-18\n\nDocument 120: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Example 11.4: Conclusion\n\u2022With 30 buses, many will stand\n\u2022During morning and afternoon rush, not all customers can \nbe accommodated\n\u2022Need at least 40 buses during rush hours\n\u2022With 40 buses all the time\u2026\n\u202224,000 seat -hours available\n\u202240 buses x 12 hours x 50 seats per bus\n\u202225,875 seat -hours needed\n\u2022107.8 percent utilization\n\u20227.8 percent of customers must stand\n11-20"
+        },
+        {
+            "document_id": "12",
+            "text": "Document 119: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Example 11.4: Detailed Analysis\n11-19\n\nDocument 292: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Example 23.1: Data\n23-16\n\nDocument 237: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Example 18.1: Other Calculations\n18-28"
+        },
+        {
+            "document_id": "13",
+            "text": "Document 260: 12\nThe inputs to MRP (the master schedule, BOM, lead times, purchasing, and \ninventory) frequently change. These frequent changes generate what is called \nsystem nervousness and can create havoc in purchasing and production \ndepartments if implemented. OM personnel reduce such nervousness by \nevaluating the need and impact of changes prior to disseminating requests to \nother departments by using two tools: Time fences & Pegging . \nTime fences allow a segment of the master schedule to be designated as \u201cnot \nto be rescheduled.\u201d\nPegging means tracing upward in the BOM from the component to the parent \nitem. By pegging upward, the production planner can determine the cause for \nthe requirement and make a judgment about the necessity for a change in the \nschedule."
+        },
+        {
+            "document_id": "14",
+            "text": "Document 196: 4Push and Pull Examples\nAre the following systems essentially push or essentially pull?\n\u20223@1 copy/printing shop:\n\u2022Vending machine:\n\u2022\u201cPure\u201d MRP system:\n\u2022Booking Driver \u2019s or Learner \u2019s license on NATIS:\n\u2022Supermarket (goods on shelves):\n\u2022Girlhouse/Steakhouse restaurant:\n\u2022Greyhound Buses at Parkstation:\nCopyright \u00a9 2008 by Wallace J. Hopp and Mark C. Spearman"
+        },
+        {
+            "document_id": "15",
+            "text": "Document 307: Communication keeping customers informed in language they can understand and \nlistening to them.\nCredibility involves trustworthiness, believability, and honesty. \nSecurity is the freedom from danger, risk, or doubt.\nUnderstanding/knowing the customer involves making the effort to understand the \ncustomer\u2019s needs.\nTangibles include the physical evidence of the service.\nPrinciples of Operations Management by Heizer and Render \u00a9 2014 Pearson Education"
+        },
+        {
+            "document_id": "16",
+            "text": "Document 322: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Seven Quality Management Principles \nISO9000 Based On\n1.Customer focus\n2.Leadership\n3.Involvement of people\n4.Process approach\n5.Continual improvement\n6.Factual approach to decision making\n7.Mutually beneficial supplier relationships\n12-23"
+        },
+        {
+            "document_id": "17",
+            "text": "Document 68: Copyright \u00a92017 McGraw- Hill Education. All rights reserved.Buffering, Blocking, and Starving\n\u2022Buffer : a storage area between stages where the output \nof a stage is placed prior to being used in a downstream \nstage\n\u2022Blocking: occurs when the activities in a stage must stop because there is no place to deposit the item\n\u2022Starving: occurs when the activities in a stage must stop because there is no work\n\u2022Bottleneck: stage that limits the capacity of the process  \n11-14\n\nDocument 67: Copyright \u00a92017 McGraw- Hill Education. All rights reserved.Buffering, Blocking, and Starving\n\u2022Buffer : a storage area between stages where the output \nof a stage is placed prior to being used in a downstream \nstage\n\u2022Blocking: occurs when the activities in a stage must stop because there is no place to deposit the item\n\u2022Starving: occurs when the activities in a stage must stop because there is no work\n\u2022Bottleneck: stage that limits the capacity of the process  \n11-13"
+        },
+        {
+            "document_id": "18",
+            "text": "Document 53: Practice Exam\n1.A strategy that is designed to meet current needs \nwithout compromising the ability of future generations to meet their needs\n2.The three criteria included in a triple bottom line\n3.The seven operations and supply chain competitive dimensions\n4.It is probably most difficult to compete on this major competitive dimension\n5.This occurs when a company seeks to match what a competitor is doing while maintaining its existing competitive position\n2-27Copyright \u00a92017 McGraw -Hill Education. \nAll rights reserved."
+        },
+        {
+            "document_id": "19",
+            "text": "Document 137: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.A Framework for Structuring Supplier \nRelationships\n16-15Exhibit 16.6"
+        },
+        {
+            "document_id": "20",
+            "text": "Document 158: TM\n5\nCustomer Order-Driven, Pull-Based Kanban \nSystems\nPull-based systems represent the other end of the spectrum. Pull systems \nare based on the Toyota Production System (TPS) and its western \ninterpretation, \u201cLean Manufacturing\u201d. The Pull method from TPS is often \nreferred to as a Kanban system \u2013 a method for planning, execution and \ninventory replenishment that enables flow through greater control.\n\nDocument 157: planning and execution that is pushed out from the top.  Plan results are \nadjusted and reported back up the chain. This slow and often arduous \nfeedback loop doesn\u2019t offer much flexibility to quickly respond to the inevitable \nvariation in customer demand and execution to the plan. Rather, it often leads \nto a negative spiral of adding inventory, clogging up production and leading to \ndiminished capacity and loss of control.  This is the very opposite of what we \nare trying to achieve with our systems.  \nsynchrono.com    \u00a9 2013 Synchrono, LLCmanufacturing so ftware\nTM\n5\nCustomer Order-Driven, Pull-Based Kanban \nSystems\nPull-based systems represent the other end of the spectrum. Pull systems \nare based on the Toyota Production System (TPS) and its western\n\nDocument 149: Pull/Kanban systems are driven from a high-level perspective that focuses on \ncapacity and material planning based on actual customer demand. The \nassumption for planning here is that the design of the system is balanced \naccording to the demands placed on the company.  \nSo while Push-based systems are front-loaded in planning and rigid in \nexecution, Pull-based systems focus on the execution of the customer order \nand are designed to be agile enough to respond quickly to changes in \ndemand. Next, we 'll review both systems in greater detail.\nPlanning in a Push environment is most often executed from an MRP or ERP \nsystem and starts when senior management sets the near-term and long-term \nfinancial goals for the company. These goals create the foundation for the\n\nDocument 172: system. Next, we will take a closer look at eKanban software systems. \nsynchrono.com    \u00a9 2013 Synchrono, LLCmanufacturing so ftware\nTM\n9\nThe big difference \nbetween a Pull and \nPush-based system, \nis that a Kanban \nsystem \u201cpulls\u201d \ninventory and work \nthrough the system \nbased upon ACTUAL \ncustomer Demand."
+        },
+        {
+            "document_id": "21",
+            "text": "Document 203: 11CONWIP Vs Pure Push System:\nCONWIP exhibits the following advantages over a pure \npush system:\n\u2022The WIP level is directly observable, while the release rate in a \npush system must be set with respect to (unobservable) capacity.\n\u2022It requires less WIP on average to attain the same throughput.\n\u2022It facilitates working ahead of a schedule when favorable \ncircumstances permit it.\nCopyright \u00a9 2008 by Wallace J. Hopp and Mark C. Spearman\n\nDocument 209: 17Summary\n\u2022Push systems schedule the release of work on the basis of \ndemand information, while pull systems authorize the release \nof work on the basis of inventory status within the system.\n\u2022The \u201cmagic\u201d of pull systems is that they establish a WIP cap, which prevents producing unnecessary WIP that does not \nsigni\ufb01cantly improve throughput.\n\u2022The simplest mechanism for establishing a WIP cap is \nCONWIP (constant work in process), in which the WIP level \nin a line is held constant by synchronizing releases to departures.\nCopyright \u00a9 2008 by Wallace J. Hopp and Mark C. Spearman"
+        },
+        {
+            "document_id": "22",
+            "text": "Document 146: in an organization.\nPush v. Pull Planning and Execution Systems     \nin Manufacturing\nThe contrast between Push and Pull-based systems starts at the planning \nphase. In traditional Push-based MRP/ERP environments, a plan is developed \nand pushed through the system. The assumption for planning in a Push \nenvironment is that everything remains constant; the company has the \ncapacity on hand, along with the inventory and decision support staff to \nexecute the plan. And while seemingly proactive, the plan often becomes \nobsolete before it is executed as it cannot easily accommodate changes in \nmarket conditions or adjust to variations inherent in manufacturing \nenvironments.  manufacturing so ftware\nTM\nContents \n1 |   Push v Pull Planning and \n         Execution Systems in\n\nDocument 149: Pull/Kanban systems are driven from a high-level perspective that focuses on \ncapacity and material planning based on actual customer demand. The \nassumption for planning here is that the design of the system is balanced \naccording to the demands placed on the company.  \nSo while Push-based systems are front-loaded in planning and rigid in \nexecution, Pull-based systems focus on the execution of the customer order \nand are designed to be agile enough to respond quickly to changes in \ndemand. Next, we 'll review both systems in greater detail.\nPlanning in a Push environment is most often executed from an MRP or ERP \nsystem and starts when senior management sets the near-term and long-term \nfinancial goals for the company. These goals create the foundation for the\n\nDocument 147: market conditions or adjust to variations inherent in manufacturing \nenvironments.  manufacturing so ftware\nTM\nContents \n1 |   Push v Pull Planning and \n         Execution Systems in \n         Manufacturing  \n  2 |  Plan-Driven Push-Based \n        Systems\n  5 |  Customer Order-Driven, \n         Pull-Based Kanban Systems\n  8 |  Manual and Electronic   \n         Kanbans\n12 |  Summary\nsynchrono.com    \u00a9 2013 Synchrono, LLC\n1As the economy begins to refocus, so too do manufacturers. More and more \nanalysts and industry experts are writing about \u201cthe factory of the future\u201d \nand the enablement of demand-driven systems to drive velocity and on-time \nproduction while effectively managing the inevitable constraints. Legacy ERP \nand Push-based MRP systems are hard-pressed to support the Lean and\n\nDocument 145: Introduction\nThis is the first in a series of papers exploring the nature of Pull-based \nmanufacturing systems and specifically, Kanban systems. The focus of this \npaper is at the system, or workflow level, while subsequent publications will \nreview Pull/Kanban systems from a management, customer and competitive \nstandpoint. After reading this paper, you will have a good understanding of \nboth Pull and Push-based manufacturing systems and your choices for \nsystems within a Pull environment. After reading the collection of papers, you \nshould have a 360-degree perspective of the impact of a Pull/Kanban system \nin an organization.\nPush v. Pull Planning and Execution Systems     \nin Manufacturing\nThe contrast between Push and Pull-based systems starts at the planning"
+        },
+        {
+            "document_id": "23",
+            "text": "Document 266: 18\nOverlapping is a method that processes part of the lot on the work center \nperforming the second operation, while the rest of the lot is still in the work \ncenter in the first operation. Overlapping reduces lead time in a way similar to \nparallel processing.\nOperations Splitting: Throughput time decreases as only part of the lot is \nprocessed on one machine. \nLot Splitting /Order Splitting: A lot (or order) is split, and a part of it is run \nahead of schedule in a period where there is available capacity."
+        },
+        {
+            "document_id": "24",
+            "text": "Document 301: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.The Quality Gurus Compared\n12-3Exhibit 12.1\n\nDocument 302: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.The Quality Gurus Compared Continued\n12-4Exhibit 12.1"
+        },
+        {
+            "document_id": "25",
+            "text": "Document 43: Supply Chain RiskExamples\nhttps://sloanreview.mit.edu/article/managing- risk-to-avoid -supplychain- breakdown/ . 2-18"
+        },
+        {
+            "document_id": "26",
+            "text": "Document 8: Process Activities\n\u2022Planning \u2013processes needed to operate an existing \nsupply chain\n\u2022Sourcing \u2013selection of suppliers that will deliver the \ngoods and services needed to create the firm\u2019s product\n\u2022Making \u2013producing the major product or service\n\u2022Delivering \u2013logistics processes such as selecting \ncarriers, coordinating the movement of goods and \ninformation, and collecting payments from customers\n\u2022Returning \u2013receiving worn- out, excess, and/or defective \nproducts back from customers\n1-9Copyright \u00a92017 McGraw -Hill Education. \nAll rights reserved.\n\nDocument 25: Questions\n1.The pipeline-like movement of the materials and information \nneeded to produce a good or service\n2.A strategy that meets the needs of shareholders and employees and that preserves the environment\n3.The processes needed to determine the set of future actions required to operate an existing supply chain\n4.The selection of suppliers\n5.A type of process where a major product is produced or a service provided\n6.A type of process that moves products to warehouses or customers\n7.Processes that involve the receiving of worn-out, defective, and excess products back from customers and support for customers who have problems\n8.A type of business where the major product is intangible, meaning it cannot be weighed or measured\n1-26Copyright \u00a92017 McGraw -Hill Education. \nAll rights reserved.\n\nDocument 10: Supply Chain Processes\nExhibit 1.3\n1-11Copyright \u00a92017 McGraw -Hill Education. \nAll rights reserved.\n\nDocument 5: Operations and Supply Chain Terms\nOperations\nManufacturing and \nservice processes \nused to transform \nresources into \nproductsSupply \nChain\nProcesses that \nmove information \nand material to and \nfrom the firm\n1-6Copyright \u00a92017 McGraw -Hill Education. \nAll rights reserved."
+        },
+        {
+            "document_id": "27",
+            "text": "Document 128: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Increasing Variability of Orders Up the \nSupply Chain\n16-6Exhibit 16.2\n\nDocument 132: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Supply Chain Uncertainty Framework\n16-10Supply \nUncertainty\nExhibit 16.4"
+        },
+        {
+            "document_id": "28",
+            "text": "Document 148: production while effectively managing the inevitable constraints. Legacy ERP \nand Push-based MRP systems are hard-pressed to support the Lean and \ndemand-driven Pull-based production environments of today. And while Pull-\nbased systems are more and more becoming a way to bridge the old and the \nnew, they require a shift in philosophy as well as a shift in IT systems. Flexible, \nplug-in solutions like Kanban systems, however, are a seemingly efficient (and \nnon-disruptive) way to bridge the gap for those looking to gain greater \ncontrol by implementing or expanding upon Lean principles.\n\nDocument 149: Pull/Kanban systems are driven from a high-level perspective that focuses on \ncapacity and material planning based on actual customer demand. The \nassumption for planning here is that the design of the system is balanced \naccording to the demands placed on the company.  \nSo while Push-based systems are front-loaded in planning and rigid in \nexecution, Pull-based systems focus on the execution of the customer order \nand are designed to be agile enough to respond quickly to changes in \ndemand. Next, we 'll review both systems in greater detail.\nPlanning in a Push environment is most often executed from an MRP or ERP \nsystem and starts when senior management sets the near-term and long-term \nfinancial goals for the company. These goals create the foundation for the\n\nDocument 158: TM\n5\nCustomer Order-Driven, Pull-Based Kanban \nSystems\nPull-based systems represent the other end of the spectrum. Pull systems \nare based on the Toyota Production System (TPS) and its western \ninterpretation, \u201cLean Manufacturing\u201d. The Pull method from TPS is often \nreferred to as a Kanban system \u2013 a method for planning, execution and \ninventory replenishment that enables flow through greater control.\n\nDocument 187: offer control and predictability while fostering a culture of moving from supply \nchain and manufacturing management working in the system to a mode of \nworking on the system.\nIn this paper, we have explored the nature of Push and Pull systems and more \nspecifically, manual and eKanban systems within a Pull environment. In our \nnext paper in this series, we will explore Pull/Kanban systems from a \nmanagement perspective, exploring the benefits of a more predictable \nenvironment along with the decision-making power gained through a deeper \naccess to data and analytics."
+        },
+        {
+            "document_id": "29",
+            "text": "Document 272: 22\nListed above are the Top ERP 5 software vendors"
+        },
+        {
+            "document_id": "30",
+            "text": "Document 184: communication is fluid and transparent through the use of an eKanban system,  \ninteractions with suppliers can turn into more positive and collaborative \nrelationships.manufacturing so ftware\nTM\nsynchrono.com    \u00a9 2013 Synchrono, LLC\n12\n\nDocument 179: to ensure that communication is always taking place.\nWe can point to a wealth of case studies that demonstrate the value of \neKanban systems. They reduce inventory which can lead to significant cost \nsavings; they shorten lead times, purchase order cycles and more. A hidden \nand often untold benefit, however, is an elevated level of communication \nacross the plant floor. And while the capabilities of eKanban software \npackages differ, consider the value of those that provide instantaneous \ndemand signals across the organization and extended supply chain \u2013 signals \nthat are visible and can be tracked by all. Everyone is on the same page, \neven suppliers who have a portal into the system that empowers them to \nreplenish items based on the parameters you have set.\n\nDocument 177: synchrono.com    \u00a9 2013 Synchrono, LLCmanufacturing so ftware\nTM\n11\nGaining Control through Transparent Communications\nMinimizing Physical Interactions and Variability\u201cKanban is like the \nmilkman. Mom didn\u2019t \ngive the milkman a \nschedule. Mom didn\u2019t \nuse MRP. She simply \nput the empties on \nthe front steps and \nthe milkman \nreplenished them. \nThat is the essence of \na pull system\u201d \n\u2013Ernie Smith, Lean Event\nFacilitator in the Lean Enterprise \nForum at the University of \nTennesseeand Kanban sizing. Analytics can also help supply chain managers to quickly \nadjust the system to take into account spike demands, increasing demand \ntrends and conversely, decreasing demand trends.\nThe best systems are systems where signals are not lost, misunderstood or\n\nDocument 183: reduced and each step begins to trust the previous step.  This reduces the need \nto add extra protection everywhere in the supply chain.  eKanban  \ncommunication eliminates the noise of the previous Push signals in the supply  \nchain.   \neKanban communications also build trust among suppliers.  In a Push \nenvironment, there are countless and continuous calls to suppliers to move up \norders, move out orders, combine orders and to \u201creally, really please\u201d expedite \ndeliveries \u2013 only to call back later and cancel the order.  Understandably, at \nsome point, the validity of these requests may be questioned.  When \ncommunication is fluid and transparent through the use of an eKanban system,  \ninteractions with suppliers can turn into more positive and collaborative"
+        },
+        {
+            "document_id": "31",
+            "text": "Document 202: 10CONWIP\nAssumptions:\n1. Single routing\n2. WIP measured in units\nMechanics: allow next job to enter line each time a job leaves \n(i.e., maintain a WIP level of m jobs in the line at all times).\nModeling:\n\u2022MRP looks like an open queueing  network\n\u2022CONWIP looks like a closed queueing network\n\u2022Kanban looks like a closed queueing network with blocking. . .\nCopyright \u00a9 2008 by Wallace J. Hopp and Mark C. Spearman"
+        },
+        {
+            "document_id": "32",
+            "text": "Document 2: What Is Operations and Supply Chain \nManagement?\n\u2022The design, operation, and improvement of the systems that create and delivery the firm\u2019s primary products and services\n\u2022Operations and supply chain management (OSCM) is\n\u2022A functional field of business\n\u2022Clear lines management responsibilities\n\u2022Concerned with the management of the entire production/delivery \nsystem\n1-3Copyright \u00a92017 McGraw -Hill Education. \nAll rights reserved.\n\nDocument 16: Careers in OSCM\n\u2022OSCM careers specialize in managing the planning, \nproduction, and distribution of goods and services\n\u2022Operations and supply chain manager works with people to figure out the best way to deliver the goods and services of the firm\n\u2022OSCM jobs are hands -on, working with people and \nfiguring out the best way to do things\n1-17Copyright \u00a92017 McGraw -Hill Education. \nAll rights reserved.\n\nDocument 21: Current Issues in Operations and Supply \nChain Management\n1.Coordinating the relationships between mutually supportive but separate organizations\n2.Optimizing global supplier, production, and distribution networks\n3.Managing customer touch points\n4.Raising senior management awareness of OSCM as a significant competitive weapon\n5.Sustainability and the triple bottom line\n1-22Copyright \u00a92017 McGraw -Hill Education. \nAll rights reserved.\n\nDocument 0: CHAPTER 1 INTRODUCTION\nLO1-1: Identify the elements of operations and supply chain \nmanagement (OSCM).\nLO1-2: Know the potential career oppor tunities i n operations \nand supply chain management.\nLO1-3: Recogni ze the major concept s that define the operations \nand supply chain management field.\nCopyright \u00a92017 McGraw -Hill Education. All \nrights reserved.1-1"
+        },
+        {
+            "document_id": "33",
+            "text": "Document 316: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.\nPareto Chart (Measure)\n17"
+        },
+        {
+            "document_id": "34",
+            "text": "Document 264: 16\nA Closed -loop MRP system -provides feedback to the capacity plan, master \nproduction schedule, and production plan so planning can be kept valid at all \ntimes. Nearly all commercial MRP systems are closed -loop.\n\nDocument 263: 15\nThrough these extensions MRP II can support Master Planning, Capacity \nRequirements Planning and Production Activity Control. The MRP II system, is\na closed loop MRP system, with additional features to cover business and \nfinancia l planning (not just manufacturing ),as shown in the Figure\nMost MRP II systems have the capability of performing simulation, enabling \nmanagers to answer a variety of what -if questions so they can gain a better \nappreciation of available options and their consequences."
+        },
+        {
+            "document_id": "35",
+            "text": "Document 102: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Production Process Mapping and \nLittle\u2019s Law\n\u2022Sum of the value of raw materials, work- in-process, and finished goods \ninventoryTotal average value of inventory\n\u2022Cost of goods sold divided by the average inventory valueInventory turns\n\u2022Inverse of inventory turns scaled to daysDays -of-supply\n\u2022There is a long- term relationship among inventory, throughput, and \nflow time\n\u2022Inventory = Throughput rate x Flow timeLittle\u2019s law\n11-3"
+        },
+        {
+            "document_id": "36",
+            "text": "Document 211: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Forecasting in Operations and Supply \nChain Management\n\u2022Forecasting is a vital function and affects every significant management decision\n\u2022Finance and accounting use forecasts as the basis for budgeting \nand cost control\n\u2022Marketing relies on forecasts to make key decisions such as new product planning and personnel compensation\n\u2022Production uses forecasts to select suppliers; determine capacity requirements; and drive decisions about purchasing, staffing, and \ninventory\n\u2022Different roles require different forecasting approaches\n\u2022Decisions about overall directions require strategic forecasts\n\u2022Tactical forecasts are used to guide day -to-day decisions\n18-2\n\nDocument 210: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.CHAPTER 18: FORECASTING\nLO18\u2013 1: Understand how forecasting is essential to supply \nchain planning.\nLO18\u2013 2: Evaluate demand using quantitative forecasting \nmodels.\nLO18\u2013 3: Apply qualitative techniques to forecast demand.\nLO18\u2013 4: Apply collaborative techniques to forecast demand.\nMcGraw -Hill/Irwin"
+        },
+        {
+            "document_id": "37",
+            "text": "Document 79: Copyright \u00a92017 McGraw- Hill Education. All rights reserved.Questions\n7.This is the time it takes a unit to travel through the \nprocess from beginning to end. It includes time waiting \nin queues and buffers .\n8.This is when a job is increased vertically or horizontally.\n9.What are the four basic work measurement techniques ?\n25"
+        },
+        {
+            "document_id": "38",
+            "text": "Document 20: The Major Concepts that Define the \nOSCM Field\n\u2022Manufacturing strategy paradigm\n\u2022Lean manufacturing, JIT, and TQC\n\u2022Service quality and productivity\n\u2022Total quality management and quality certification\n\u2022Business process reengineering\n\u2022Six sigma quality\n\u2022Supply chain management\n\u2022Electronic commerce\n\u2022Sustainability and the triple bottom line\n\u2022Business strategy that includes social, economic and \nenvironmental criteria\n\u2022Business analytics\n1-21Copyright \u00a92017 McGraw -Hill Education. \nAll rights reserved."
+        },
+        {
+            "document_id": "39",
+            "text": "Document 167: second guessing of what is a real change versus changes that are just noise. In \nPull environments, communication of the change is clear, precise and quickly \nacted upon.\nIn Lean Manufacturing, there are many tools that are part of a Lean journey. A \nKanban system is one such tool that represents a visual and functional step in \nthe transition from Push to Pull processing.  While there are Kanban systems \nfor a variety of purposes (software development, project management, even \npersonal productivity Kanbans), in the manufacturing world, we make the \ndistinction between manual and electronic \u2013 or eKanban software systems.  \nsynchrono.com    \u00a9 2013 Synchrono, LLCmanufacturing so ftware\nTM\n8\nManual and Electronic Kanbans \nManual Kanban Systems\n\nDocument 168: distinction between manual and electronic \u2013 or eKanban software systems.  \nsynchrono.com    \u00a9 2013 Synchrono, LLCmanufacturing so ftware\nTM\n8\nManual and Electronic Kanbans \nManual Kanban Systems\nIn a manual Kanban system, there are physical Kanban Cards for each unit of \ninventory (or batch) that are located in item bins, shelves, palettes, etc.  The \nCard indicates a replenishment signal for that item. Typically there is also a   The level of control \ngained allows you to \nreduce the total \namount of inventory.\n\nDocument 172: system. Next, we will take a closer look at eKanban software systems. \nsynchrono.com    \u00a9 2013 Synchrono, LLCmanufacturing so ftware\nTM\n9\nThe big difference \nbetween a Pull and \nPush-based system, \nis that a Kanban \nsystem \u201cpulls\u201d \ninventory and work \nthrough the system \nbased upon ACTUAL \ncustomer Demand.\n\nDocument 177: synchrono.com    \u00a9 2013 Synchrono, LLCmanufacturing so ftware\nTM\n11\nGaining Control through Transparent Communications\nMinimizing Physical Interactions and Variability\u201cKanban is like the \nmilkman. Mom didn\u2019t \ngive the milkman a \nschedule. Mom didn\u2019t \nuse MRP. She simply \nput the empties on \nthe front steps and \nthe milkman \nreplenished them. \nThat is the essence of \na pull system\u201d \n\u2013Ernie Smith, Lean Event\nFacilitator in the Lean Enterprise \nForum at the University of \nTennesseeand Kanban sizing. Analytics can also help supply chain managers to quickly \nadjust the system to take into account spike demands, increasing demand \ntrends and conversely, decreasing demand trends.\nThe best systems are systems where signals are not lost, misunderstood or"
+        },
+        {
+            "document_id": "40",
+            "text": "Document 280: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Goldratt\u2019s Rules of Production Scheduling \nContinued\n6.Bottlenecks govern both throughput and inventory in the \nsystem\n7.Transfer batch may not, and many times should not, be equal to the process batch\n8.A process batch should be variable both along its route and in time\n9.Priorities can be set only by examining the system\u2019s constraints, and lead time is a derivative of the schedule\n23-4\n\nDocument 279: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Goldratt\u2019s Rules of Production Scheduling\n1.Do not balance capacity, balance the flow\n2.The level utilization of a nonbottleneck resource is not \ndetermined by its own potential but by some other \nconstraint in the system\n3.Utilization and activation of a resource are not the \nsame\n4.An hour lost at a bottleneck is an hour lost for the entire system\n5.An hour saved at a nonbottleneck is a mirage\n23-3"
+        },
+        {
+            "document_id": "41",
+            "text": "Document 71: Copyright \u00a92017 McGraw- Hill Education. All rights reserved.Measuring Process Performance\n11-17\nExhibit 11.3"
+        },
+        {
+            "document_id": "42",
+            "text": "Document 56: Copyright \u00a92017 McGraw- Hill Education. All rights reserved.What is a process?\n\nDocument 69: Copyright \u00a92017 McGraw- Hill Education. All rights reserved.Process Concepts\n15\n\nDocument 103: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.What Goes Into a Process Must Come \nout of the Process\n11-4\nExhibit 11.6\n\nDocument 59: Copyright \u00a92017 McGraw- Hill Education. All rights reserved.Why do we map processes?\n."
+        },
+        {
+            "document_id": "43",
+            "text": "Document 97: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.\nManufacturing Process Map\nExhibit 14.214-18Future State Map\nKaizen is the Japanese philosophy that focuses on continuous improvement. The Kaizen bursts identify \nspecific short -term projects (often referred to as \u201cKaizen events\u201d) that teams work on to implement changes to \nthe process."
+        },
+        {
+            "document_id": "44",
+            "text": "Document 98: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Tips for Creating a VSM\n\u2022Involve entire team\n\u2022Actually walk the process -follow the material  and \ninformation through the process, starting  at the beginning\n\u2022Use Post -it notes and butcher paper\n\u2022Use symbols or icons that are meaningful to  the process \nbut common enough to be  understood by all involved\n14-19 \u00a9 2012 Massachusetts Institute ofTechnology\n\nDocument 94: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Steps for Creating a VSM\n\u2022Define customer value and the process\n\u2022\u201cWalk\u201d the process to identify tasks and flows\n\u2022Identify value -added and waste process steps\n\u2022Create the \u201ccurrent state\u201d VSM\n\u2022Gather data on resources, time, quality for each step\n\u2022Analyse map to determine opportunities for  improvement\n\u2022Identify bottlenecks and other flow impediments\n\u2022Brainstorm actions to eliminate waste and add value\n\u2022Create a \u201cfuture -state\u201d map to visualize the  desired and \nrealistic next state\n\u2022Create action plans to move toward future state\n14-15 \u00a9 2012 Massachusetts Institute ofTechnology"
+        },
+        {
+            "document_id": "45",
+            "text": "Document 299: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.CHAPTER 12: QUALITY\nLO12\u2013 1: Explain the scope of total quality management in a \nfirm.\nLO12\u2013 2: Understand the Six Sigma approach to improving \nquality and productivity.\nLO12\u2013 3: Illustrate globally recognized quality benchmarks.\nMcGraw -Hill/Irwin"
+        },
+        {
+            "document_id": "46",
+            "text": "Document 170: \u2022 Between the purchasing organization and suppliers where there are  \nmixed methods (e.g., some products are utilizing Push forecasts while  \nother products are using Kanban signals).\n\u2022\u2022 When parts pass between multiple divisions or locations.\nMany times, a Kanban system is implemented manually to start. This can help \nease the organizational transition to the Pull signaling method for more change-\nresistant environments and provides the opportunity to implement Kanban as a \npilot program to test the process and work out the issues.  Usually simple \nprocesses are used in this approach.  And, like all new processes, there are \nvaluable lessons to be learned ::\n\u2022\u2022 How to size the K-Loops (number of Kanbans in the process).\n\u2022 How to use Spike Kanban Cards when demand increases.\n\nDocument 171: valuable lessons to be learned ::\n\u2022\u2022 How to size the K-Loops (number of Kanbans in the process).\n\u2022 How to use Spike Kanban Cards when demand increases.\n(A Spike Card is used to quickly increase inventory to account for  \nsudden and temporary increases in demand.)\n\u2022\u2022 When to remove Kanban Cards as demand trends downward.\n\u2022\u2022 Identifying data that is important for monitoring line performance.\n\u2022\u2022 Understanding how changes in supplier performance and lead-times\nimpact K-Loop sizing.\nFor some, however, the immediate benefits of an eKanban system far outweigh \nthe choice for implementing manually first, then transitioning to an electronic \nsystem. Next, we will take a closer look at eKanban software systems. \nsynchrono.com    \u00a9 2013 Synchrono, LLCmanufacturing so ftware\nTM\n9\nThe big difference"
+        },
+        {
+            "document_id": "47",
+            "text": "Document 109: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Example 11.3: A Restaurant\n\u2022Consider the restaurant in the casino\n\u2022Managers have set up a buffet arrangement where customers \nserve themselves\n\u2022Buffet is continually replenished to keep items fresh\n\u2022To further speed service a fixed amount is charged for the meal\n\u2022Customers take an average of 30 minutes to get their food and \neat\n\u2022They typically eat in groups (or customer parties) of two or three to a table\n\u2022The restaurant has 40 tables\n\u2022Each table can accommodate four people\n\u2022What is the maximum capacity of this restaurant?\n11-10\n\nDocument 112: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Example 11.3: Restaurant Continued\n\u2022Restaurant operates for two hours for lunch\n\u2022The capacity is 80 customer parties per hour\n\u2022A simple way to analyze the situation is to calculate how the \nsystem looks at the end of each 15-minute interval\n\u2022The key is to look at the cumulative numbers\n\u2022The difference between cumulative arrivals and cumulative departures \ngives the number of customer parties in the restaurant\n\u2022Because there are only 40 tables, when the cumulative \ndifference through is greater than 40, a waiting line forms\n\u2022Cycle time for the entire restaurant is 45 seconds per customer party at this time\n\nDocument 110: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Example 11.3: Solution Approach\n\u2022Utilization\n\u2022The restaurant can accommodate 160 people at a time\n\u2022It might be more convenient to measure the capacity in terms of \ncustomer parties because this is how the capacity will be used\n\u2022If the average customer party is 2.5 individuals, then the average seat \nutilization is 62.5 percent when the restaurant is operating at capacity\n\u2022Cycle time\n\u2022When operating at capacity, 0.75 minute\n\u202230 minutes/40 tables\n\u2022On average, a table would become available every 0.75 minute or \n45 seconds\n\u2022Capacity\n\u2022The restaurant could handle 80 customer parties per hour\n\u202260 minutes/0.75 minute/party\n11-11"
+        },
+        {
+            "document_id": "48",
+            "text": "Document 139: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Green Sourcing Process\n16-17Exhibit 16.7\n\nDocument 138: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Green Sourcing\n\u2022Being environmentally responsible has become a \nbusiness imperative\n\u2022Many firms are looking to their supply chains to deliver \u201cgreen\u201d results\n\u2022Financial results can often be improved through going green\n\u2022A comprehensive green sourcing effort should assess how a company uses items that are purchased internally\n\u2022It is also important to reduce waste\n16-16"
+        },
+        {
+            "document_id": "49",
+            "text": "Document 288: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Saving Time\n\u2022Bottlenecks govern both throughput and inventory in the \nsystem\n\u2022An hour saved at the bottleneck adds an extra hour to the entire production system \u2013Time is very valuable\n\u2022An hour saved at a nonbottleneck is a mirage and only \nadds an hour to its idle time\n23-12"
+        },
+        {
+            "document_id": "50",
+            "text": "Document 233: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Linear Regression -Least Squares Regression Line\nTime periodValues of Dependent VariableDeviation1\n(error)Deviation5Deviation7\nDeviation2Deviation6\nDeviation4Deviation3Actual observation \n(y-value)\nTrend line, Y = a + bx\n\u00a92011 Pearson Education\n\nDocument 234: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Trend projections \u2013least squares\nEquations to calculate the regression variables\nb=\u03a3xy-nxy\n\u03a3x2\u2013nx2\na = y -bx\na = Y intercept x = x value of each data point\nb = Slope of Line y = y value of each data point\n\u0305y =Average of all ys n = Number of data points\n\u0305x =Average of all xs Y = Value of Dependant variableY = a + bx\n\u00a92011 Pearson Education\n\nDocument 232: Copyright \u00a92017 McGraw -Hill Education. All rights reserved.Linear Regression Analysis\n\u2022Dependent variable is predicted for given values of the \nindependent variable\n\u2022Linear regression is special case that assumes the relationship between the variables can be explained with a straight line\n\u2022Useful for long- term forecasting\n\u2022Y = a + bx\n\u2022Y = Dependent variable computed by the equation\n\u2022y = y variable data point\n\u2022a = Y intercept\n\u2022b = Slope of the line\n\u2022x = x variable data point\n18-23"
+        },
+        {
+            "document_id": "51",
+            "text": "Document 11: Differences Between Services and Goods\n1-12Copyright \u00a92017 McGraw -Hill Education. \nAll rights reserved.\u2022Services are intangible\n\u2022Services require some interaction with the customer\n\u2022Services are inherently heterogenous\n\u2022Services are perishable and time dependent\n\u2022Services are defined and evaluated as a package of \nfeatures"
+        }
+    ],
+    "tasks": [
+        {
+            "task_id": "0",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "0"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "What is the difference between additive and multiplicative seasonal variation in time series decomposition?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "In time series decomposition, additive seasonal variation is when the forecast including trend and seasonal equals Trend plus Seasonal. Multiplicative seasonal variation is when the forecast including trend and seasonal equals Trend times Seasonal factor."
+                }
+            ]
+        },
+        {
+            "task_id": "1",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "1"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "What is the strategy a firm would use to reduce risk in the face of high levels of supply uncertainty?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The strategy is not specified in the provided context."
+                }
+            ]
+        },
+        {
+            "task_id": "2",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "2"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "What is the definition of Takt Time in operations management?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "Takt Time is the pace of processing to match the pace of customer need. It is the rate for completing work based on customer need. Specifically, Takt time is the effective working time per shift divided by the customer requirement per shift."
+                }
+            ]
+        },
+        {
+            "task_id": "3",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "3"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "Who holds the copyright for the material on outsourcing benefits?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The copyright for the material on outsourcing benefits is held by McGraw -Hill Education."
+                }
+            ]
+        },
+        {
+            "task_id": "4",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "4"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "What are the five ways an ERP system streamlines hotel and resort operations?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The five ways an ERP system streamlines hotel and resort operations are: Room booking system, Guest management, Front-desk efficiency, Inventory management, and Housekeeping, laundry, and maintenance."
+                }
+            ]
+        },
+        {
+            "task_id": "5",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "5"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "What are some of the benefits of using eKanban systems?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "eKanban systems reduce inventory which can lead to significant cost savings; they shorten lead times, purchase order cycles and more. They also improve communication across the plant floor by providing instantaneous demand signals across the organization and extended supply chain. These signals are visible and can be tracked by all, including suppliers who have a portal into the system that empowers them to replenish items based on the parameters set."
+                }
+            ]
+        },
+        {
+            "task_id": "6",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "6"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "What is the copyright year for the McGraw-Hill Education materials referenced?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The copyright year for the McGraw-Hill Education materials referenced is 2017."
+                }
+            ]
+        },
+        {
+            "task_id": "7",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "7"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "What is the Bullwhip Effect in the context of supply chain management?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The Bullwhip Effect is a phenomenon of variability magnification as we move from the customer to the producer in the supply chain. A slight change in consumer sales ripples backward as magnified oscillations upstream, like the result of a flick of a bullwhip handle."
+                }
+            ]
+        },
+        {
+            "task_id": "8",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "6"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "What is the copyright year for the McGraw-Hill Education materials?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The copyright year for the McGraw-Hill Education materials is 2017."
+                }
+            ]
+        },
+        {
+            "task_id": "9",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "8"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "What is the minimally acceptable threshold for BOM accuracy in the MRP system?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The minimally acceptable threshold for BOM accuracy in the MRP system is 98%."
+                }
+            ]
+        },
+        {
+            "task_id": "10",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "9"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "In the context of operations management as outlined by McGraw-Hill Education, what information does Exhibit 18.5 provide regarding the comparison of exponential forecasts and actual demand for a product over time?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "Exhibit 18.5 shows the Exponential Forecasts vs. Actual Demand for Product over Time, demonstrating Forecast Lag."
+                }
+            ]
+        },
+        {
+            "task_id": "11",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "10"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "Can you identify the individuals who penned the book titled 'Principles of Operations Management'?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The authors of Principles of Operations Management are Heizer and Render."
+                }
+            ]
+        },
+        {
+            "task_id": "12",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "11"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "What is the maximum number of passengers that a single Balabus in Paris can hold, considering both seating and standing capacities?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "Each bus has a total capacity of 80 passengers, 50 seated and 30 standing."
+                }
+            ]
+        },
+        {
+            "task_id": "13",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "12"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "Could you identify the entity that has the legal rights over the examples provided in the documents?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The copyright for the provided examples is held by McGraw-Hill Education."
+                }
+            ]
+        },
+        {
+            "task_id": "14",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "9"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "Could you specify the forecasts that are being juxtaposed over a certain period in Exhibit 18.5?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "Exhibit 18.5 compares Exponential Forecasts and Actual Demand for Product over time."
+                }
+            ]
+        },
+        {
+            "task_id": "15",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "13"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "Can you name the pair of tools leveraged by Operations Management professionals to mitigate the issue of system nervousness, and briefly describe their function?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The two tools used by Operations Management personnel to reduce system nervousness are Time fences and Pegging."
+                }
+            ]
+        },
+        {
+            "task_id": "16",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "14"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "Can you identify and categorize the following systems as either predominantly push or pull: a copy/printing shop, a vending machine, a 'Pure' MRP system, booking a Driver's or Learner's license on NATIS, a supermarket with goods on shelves, a grillhouse/steakhouse restaurant, and Greyhound Buses at Parkstation?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "Some examples of systems that could be categorized as either push or pull include a copy/printing shop, a vending machine, a 'Pure' MRP system, booking a Driver's or Learner's license on NATIS, goods on supermarket shelves, a Grillhouse/Steakhouse restaurant, and Greyhound Buses at Parkstation."
+                }
+            ]
+        },
+        {
+            "task_id": "17",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "15"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "According to the principles outlined by Heizer and Render in their work on Operations Management, what are the fundamental elements that should be considered?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The key principles of Operations Management according to Heizer and Render are communication, credibility, security, understanding/knowing the customer, and tangibles."
+                }
+            ]
+        },
+        {
+            "task_id": "18",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "16"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "Could you enumerate the seven principles that guide quality management according to the ISO9000 standard?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "1. Customer focus, 2. Leadership, 3. Involvement of people, 4. Process approach, 5. Continual improvement, 6. Factual approach to decision making, 7. Mutually beneficial supplier relationships."
+                }
+            ]
+        },
+        {
+            "task_id": "19",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "17"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "In the realm of operations management, how would you describe the term 'Bottleneck' and its impact on the overall process capacity?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "Bottleneck is a stage that limits the capacity of the process."
+                }
+            ]
+        },
+        {
+            "task_id": "20",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "18"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "What is the term for a strategy designed to fulfill present requirements without jeopardizing the ability of future generations to meet their own needs, considering a context of dependent demand in a production environment?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "This refers to a sustainable strategy."
+                }
+            ]
+        },
+        {
+            "task_id": "21",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "19"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "Considering the material 'A Framework for Structuring Supplier Relationships' is part of the 2017 Lean Production lecture notes, who would be the copyright holder for this specific content?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The copyright for the 'A Framework for Structuring Supplier Relationships' material is held by McGraw -Hill Education."
+                }
+            ]
+        },
+        {
+            "task_id": "22",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "20"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "Considering the impact of demand information and inventory status on the release of work, could you elaborate on the key differences between a Pull and Push-based system in the context of inventory management?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The big difference between a Pull and Push-based system is that a Kanban system 'pulls' inventory and work through the system based upon ACTUAL customer Demand."
+                }
+            ]
+        },
+        {
+            "task_id": "23",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "21"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "Considering the characteristics of a typical organization that transforms inputs into outputs, what are the benefits of implementing CONWIP over a pure push system?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "CONWIP has the following advantages over a pure push system: The WIP level is directly observable, while the release rate in a push system must be set with respect to (unobservable) capacity. It requires less WIP on average to attain the same throughput. It facilitates working ahead of a schedule when favorable circumstances permit it."
+                }
+            ]
+        },
+        {
+            "task_id": "24",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "22"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "Considering the context of manufacturing environments that are subject to frequent changes in market conditions, could you elaborate on the primary distinctions between Push and Pull-based systems?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "Push-based systems start with a plan that is pushed through the system, assuming that everything remains constant. This plan often becomes obsolete before it is executed as it cannot easily accommodate changes in market conditions or adjust to variations inherent in manufacturing environments. On the other hand, Pull-based systems are driven from a high-level perspective that focuses on capacity and material planning based on actual customer demand. These systems are designed to be agile enough to respond quickly to changes in demand."
+                }
+            ]
+        },
+        {
+            "task_id": "25",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "23"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "In the context of operations management as discussed in the 7th edition of Operations Management by Nigel Slack, Alistair Brandon-James, and Robert Johnston, what is the significance of overlapping?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "Overlapping is a method that processes part of the lot on the work center performing the second operation, while the rest of the lot is still in the work center in the first operation. Overlapping reduces lead time in a way similar to parallel processing."
+                }
+            ]
+        },
+        {
+            "task_id": "26",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "24"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "Can you identify the title of the document that contains information on short, medium, and long term time series analysis?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The Quality Gurus Compared"
+                }
+            ]
+        },
+        {
+            "task_id": "27",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "14"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "Can you provide examples of push and pull systems in the context of service quality, particularly where intangible differences between products and customer expectations play a significant role?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "Examples include a copy/printing shop, a vending machine, a 'Pure' MRP system, booking a driver's or learner's license on NATIS, goods on supermarket shelves, a Grillhouse/Steakhouse restaurant, and Greyhound Buses at Parkstation."
+                }
+            ]
+        },
+        {
+            "task_id": "28",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "25"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "Considering the context of measuring process performance, what would be a reliable source of examples for supply chain risks, particularly those related to setup and operation time?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The source of information for supply chain risk examples is https://sloanreview.mit.edu/article/managing- risk-to-avoid -supplychain- breakdown/ ."
+                }
+            ]
+        },
+        {
+            "task_id": "29",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "26"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "In the context of the copyrighted material from McGraw-Hill Education, what are the five main process activities in operations and supply chain management?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The five main process activities are Planning, Sourcing, Making, Delivering, and Returning."
+                }
+            ]
+        },
+        {
+            "task_id": "30",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "27"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "As an engineering student studying operations management, I am trying to formulate questions from my lecture notes on supply chain uncertainty. Can you tell me what the topic of the content in the provided excerpts from McGraw-Hill Education is?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The topic of the content in the provided excerpts from McGraw-Hill Education is Supply Chain Uncertainty and Increasing Variability of Orders Up the Supply Chain."
+                }
+            ]
+        },
+        {
+            "task_id": "31",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "28"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "As a manufacturing engineer preparing for a presentation on contrasting push and pull production systems, specifically with a focus on Kanban systems, could you clarify what the primary difference is between Push-based and Pull-based systems in production environments?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "Push-based systems are front-loaded in planning and rigid in execution, while Pull-based systems focus on the execution of the customer order and are designed to be agile enough to respond quickly to changes in demand."
+                }
+            ]
+        },
+        {
+            "task_id": "32",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "29"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "As a student revising for an operations management exam, I'm trying to identify the top five ERP software vendors from my lecture notes. Can you tell me what information is missing in the text?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The text is missing the names of the Top 5 ERP software vendors."
+                }
+            ]
+        },
+        {
+            "task_id": "33",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "30"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "As a university student studying operations management, I'm trying to understand the benefits of eKanban systems in supply chain management. Could you explain how these systems impact inventory reductions, lead times, and purchase order cycles?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "eKanban systems offer several benefits in supply chain management. They reduce inventory, leading to significant cost savings; they shorten lead times, purchase order cycles and more. They also elevate the level of communication across the plant floor by providing instantaneous demand signals across the organization and extended supply chain. These signals are visible and can be tracked by all, ensuring everyone is on the same page. eKanban systems also build trust among suppliers by making communication fluid and transparent. This can transform interactions with suppliers into more positive and collaborative relationships."
+                }
+            ]
+        },
+        {
+            "task_id": "34",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "31"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "Hey, I'm an intern at an engineering firm trying to understand the differences between MRP, CONWIP, and Kanban systems in operations management. Could you tell me what the assumptions of the CONWIP model are?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The assumptions of the CONWIP model are: 1. Single routing, 2. WIP measured in units."
+                }
+            ]
+        },
+        {
+            "task_id": "35",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "32"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "As an engineering student studying for my upcoming exam in operations and supply chain management, could you help me understand what the current issues are in this field according to my lecture notes?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "1. Coordinating the relationships between mutually supportive but separate organizations. 2. Optimizing global supplier, production, and distribution networks. 3. Managing customer touch points. 4. Raising senior management awareness of OSCM as a significant competitive weapon. 5. Sustainability and the triple bottom line."
+                }
+            ]
+        },
+        {
+            "task_id": "36",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "33"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "I was going through Document 316 of the operations management lecture notes and came across a term 'Pareto Chart'. Can you tell me if this is the same chart that is mentioned in the 2017 McGraw-Hill Education copyright notes?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "Pareto Chart"
+                }
+            ]
+        },
+        {
+            "task_id": "37",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "34"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "As a student studying for my operations management exam on MRP II systems, I'm trying to generate potential questions. Can you tell me what the main feature of a Closed-loop MRP system is?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "A Closed-loop MRP system provides feedback to the capacity plan, master production schedule, and production plan so planning can be kept valid at all times."
+                }
+            ]
+        },
+        {
+            "task_id": "38",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "35"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "As an engineering student trying to understand my operations management lecture notes, could you explain to me what Little\u2019s Law is in the context of production process mapping?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "Little\u2019s Law states that there is a long-term relationship among inventory, throughput, and flow time. It is expressed as Inventory = Throughput rate x Flow time."
+                }
+            ]
+        },
+        {
+            "task_id": "39",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "36"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "As a student studying operations and supply chain management, I'm trying to understand how forecasting affects management decisions in different functions like finance, marketing, and production. Could you tell me what the different types of forecasts used in this field are?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "Decisions about overall directions require strategic forecasts and tactical forecasts are used to guide day-to-day decisions."
+                }
+            ]
+        },
+        {
+            "task_id": "40",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "31"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "What are the assumptions for CONWIP and how does it look like in terms of modeling?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The assumptions for CONWIP are single routing and WIP measured in units, and it looks like a closed queueing network in terms of modeling."
+                }
+            ]
+        },
+        {
+            "task_id": "41",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "37"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "What is the duration for a unit to travel through the process from start to finish and what are the four basic work measurement techniques?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The travel time for a unit includes time spent waiting in queues and buffers. The text does not provide information on the four basic work measurement techniques."
+                }
+            ]
+        },
+        {
+            "task_id": "42",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "38"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "What are some of the major concepts that define the OSCM field and what does the business strategy in this field include?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The major concepts that define the OSCM field include manufacturing strategy paradigm, lean manufacturing, JIT, TQC, service quality and productivity, total quality management and quality certification, business process reengineering, six sigma quality, supply chain management, electronic commerce, sustainability and the triple bottom line. The business strategy in this field includes social, economic and environmental criteria."
+                }
+            ]
+        },
+        {
+            "task_id": "43",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "39"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "What is the distinction between manual and electronic Kanban systems, and what is the main difference between a Pull and Push-based system in manufacturing?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "In a manual Kanban system, there are physical Kanban Cards for each unit of inventory that are located in item bins, shelves, palettes, etc. The Card indicates a replenishment signal for that item. Electronic Kanban or eKanban software systems are digital versions of these systems. The big difference between a Pull and Push-based system, is that a Kanban system \u201cpulls\u201d inventory and work through the system based upon ACTUAL customer Demand."
+                }
+            ]
+        },
+        {
+            "task_id": "44",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "40"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "What does Goldratt's Rule 6 of Production Scheduling state and how does it differ from the utilization and activation of a resource according to Goldratt's Rule 3?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "Goldratt's Rule 6 of Production Scheduling states that bottlenecks govern both throughput and inventory in the system, which is different from Rule 3 that states utilization and activation of a resource are not the same."
+                }
+            ]
+        },
+        {
+            "task_id": "45",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "41"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "Who holds the copyright for 'Measuring Process Performance' and when was it registered?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The copyright for 'Measuring Process Performance' is held by McGraw-Hill Education and it was registered in 2017."
+                }
+            ]
+        },
+        {
+            "task_id": "46",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "27"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "What are the topics of Exhibit 16.2 and Exhibit 16.4 in the McGraw-Hill Education material?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "Exhibit 16.2 in the McGraw-Hill Education material is about 'Increasing Variability of Orders Up the Supply Chain' and Exhibit 16.4 discusses the 'Supply Chain Uncertainty Framework'."
+                }
+            ]
+        },
+        {
+            "task_id": "47",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "42"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "What is a process and why do we map them?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The context does not provide information on what a process is or why we map them."
+                }
+            ]
+        },
+        {
+            "task_id": "48",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "35"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "What is the formula for calculating total average value of inventory and how does Little\u2019s Law relate to production process mapping?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The total average value of inventory is the sum of the value of raw materials, work-in-process, and finished goods inventory. Little\u2019s Law, in the context of production process mapping, states that there is a long-term relationship among inventory, throughput, and flow time, expressed as Inventory = Throughput rate x Flow time."
+                }
+            ]
+        },
+        {
+            "task_id": "49",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "43"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "What is the Kaizen philosophy and what are Kaizen bursts?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "Kaizen is the Japanese philosophy that focuses on continuous improvement and Kaizen bursts are specific short-term projects that teams work on to implement changes to the process."
+                }
+            ]
+        },
+        {
+            "task_id": "50",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "44"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "Can you tell me the steps for doing this?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The steps for creating a VSM are: Define customer value and the process, 'Walk' the process to identify tasks and flows, Identify value-added and waste process steps, Create the 'current state' VSM, Gather data on resources, time, quality for each step, Analyse map to determine opportunities for improvement, Identify bottlenecks and other flow impediments, Brainstorm actions to eliminate waste and add value, Create a 'future-state' map to visualize the desired and realistic next state, Create action plans to move toward future state."
+                }
+            ]
+        },
+        {
+            "task_id": "51",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "45"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "What are its learning objectives?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The learning objectives of Chapter 12 are: 1) Explain the scope of total quality management in a firm. 2) Understand the Six Sigma approach to improving quality and productivity. 3) Illustrate globally recognized quality benchmarks."
+                }
+            ]
+        },
+        {
+            "task_id": "52",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "46"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "What are some valuable lessons to be learned from this?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "Some valuable lessons to be learned when implementing a Kanban system include how to size the K-Loops (number of Kanbans in the process), how to use Spike Kanban Cards when demand increases, when to remove Kanban Cards as demand trends downward, identifying data that is important for monitoring line performance, and understanding how changes in supplier performance and lead-times impact K-Loop sizing."
+                }
+            ]
+        },
+        {
+            "task_id": "53",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "47"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "What is its maximum capacity?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The restaurant can accommodate 160 people at a time."
+                }
+            ]
+        },
+        {
+            "task_id": "54",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "43"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "Could you explain what it is and what does it primarily focus on?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "Kaizen is the Japanese philosophy that focuses on continuous improvement. The Kaizen bursts identify specific short-term projects (often referred to as \u201cKaizen events\u201d) that teams work on to implement changes to the process."
+                }
+            ]
+        },
+        {
+            "task_id": "55",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "48"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "What are its benefits?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "Being environmentally responsible has become a business imperative. Many firms are looking to their supply chains to deliver \u201cgreen\u201d results. Financial results can often be improved through going green. A comprehensive green sourcing effort should assess how a company uses items that are purchased internally. It is also important to reduce waste."
+                }
+            ]
+        },
+        {
+            "task_id": "56",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "49"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "What would be the impact of this?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "An hour saved at the bottleneck adds an extra hour to the entire production system, making time very valuable. However, an hour saved at a nonbottleneck is a mirage and only adds an hour to its idle time."
+                }
+            ]
+        },
+        {
+            "task_id": "57",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "50"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "What is it?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "The equation used in linear regression analysis is Y = a + bx, where Y is the dependent variable computed by the equation, y is the y variable data point, a is the Y intercept, b is the slope of the line, and x is the x variable data point."
+                }
+            ]
+        },
+        {
+            "task_id": "58",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "11"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "How many individuals can be accommodated in total?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "30 buses can accommodate 2,400 total passengers."
+                }
+            ]
+        },
+        {
+            "task_id": "59",
+            "task_type": "rag",
+            "contexts": [
+                {
+                    "document_id": "51"
+                }
+            ],
+            "input": [
+                {
+                    "speaker": "user",
+                    "text": "Could you tell me what are some key distinctions?"
+                }
+            ],
+            "targets": [
+                {
+                    "text": "Services are intangible, require some interaction with the customer, are inherently heterogenous, are perishable and time dependent, and are defined and evaluated as a package of features."
+                }
+            ]
+        }
+    ],
+    "evaluations": [
+        {
+            "task_id": "0",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "The difference between additive and multiplicative seasonal variation in time series decomposition is in how the seasonal component interacts with the trend component. In additive seasonal variation, the forecast including trend and seasonal components is expressed as the sum: Trend + Seasonal. In multiplicative seasonal variation, the forecast is expressed as the product: Trend \u00d7 Seasonal factor.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.9999999999999994,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "1",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "I do not know the answer to this question.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "2",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "Takt Time in operations management is the pace of processing required to match the pace of customer demand. It is calculated as the effective working time per shift divided by the customer requirement per shift.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.9530484888115222,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "3",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "I do not know the answer to this question.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "4",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "The five ways an ERP system streamlines hotel and resort operations are:\n\n1. Room booking system\n2. Guest management\n3. Front-desk efficiency\n4. Inventory management\n5. Housekeeping, laundry, and maintenance",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.9999999999999999,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "5",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "Some benefits of using eKanban systems include:\n\n1. Real-time tracking of supermarket and kanban status.\n2. Instantaneous adjustments based on demand.\n3. Enhanced communication across the supplier network.\n4. Right-sized inventory through automated K-Loop\u2122 sizing.\n5. A closed-loop process for identifying and addressing problems.\n6. Reduced administrative burden, allowing focus on strategic tasks.\n7. Shorter lead times and improved on-time performance.\n8. Functionality in multi-plant, multi-site, multi-distributed environments.\n9. Integration with existing MRP/ERP systems.\n10. Access to reporting tools and analytics for decision-making.\n11. Support for continuous improvement efforts.\n12. Reduction in administrative costs related to the replenishment loop.\n13. Elimination of the supply chain bullwhip effect.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.15384615384615385,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.9982675195796573,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "6",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "The copyright year for the McGraw-Hill Education materials referenced is 2017.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 1.0000000000000007,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "7",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "The Bullwhip Effect in supply chain management is the phenomenon where variability magnifies as it moves from the customer to the producer. A slight change in consumer sales can cause increasingly larger oscillations in demand upstream in the supply chain, similar to the effect of flicking a bullwhip handle.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.9953774975398687,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "8",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "The copyright year for the McGraw-Hill Education materials is 2017.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 1.0000000000000002,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "9",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "The minimally acceptable threshold for BOM accuracy in the MRP system is 98%.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.9999999999999997,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "10",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "I do not know the answer to this question.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "11",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "I do not know the answer to this question.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "12",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "The maximum number of passengers that a single Balabus in Paris can hold is 80, considering both seating and standing capacities (50 seated and 30 standing).",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.5,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.964474115715233,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "13",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "The entity that has the legal rights over the examples provided in the documents is McGraw-Hill Education.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.9492223039089854,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "14",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "I do not know the answer to this question.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "15",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "The pair of tools used by Operations Management professionals to mitigate system nervousness are Time Fences and Pegging. Time fences designate a segment of the master schedule as \"not to be rescheduled,\" thereby reducing unnecessary changes. Pegging involves tracing upward in the Bill of Materials (BOM) from the component to the parent item, allowing production planners to determine the cause for a requirement and assess the necessity of a schedule change.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.8,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.9625525670252338,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "16",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "Based on the provided context, the systems can be categorized as follows:\n\n- **Copy/printing shop:** Predominantly pull (service is often made-to-order).\n- **Vending machine:** Predominantly push (items are stocked in anticipation of demand).\n- **'Pure' MRP system:** Predominantly push (planned production based on forecasts).\n- **Booking a Driver's or Learner's license on NATIS:** Predominantly pull (service is scheduled based on individual requests).\n- **Supermarket with goods on shelves:** Predominantly push (goods are stocked in anticipation of customer purchase).\n- **Grillhouse/steakhouse restaurant:** Generally pull (meals are prepared to order).\n- **Greyhound Buses at Parkstation:** Predominantly push (bus schedules are set in advance, assuming demand).\n\nThese categorizations are based on the typical characteristics of push and pull systems as described in the context.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.6,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.8693522017334908,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "17",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "I do not know the answer to this question.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "18",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "The seven principles that guide quality management according to the ISO9000 standard are:\n\n1. Customer focus\n2. Leadership\n3. Involvement of people\n4. Process approach\n5. Continual improvement\n6. Factual approach to decision making\n7. Mutually beneficial supplier relationships",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.967505044633945,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "19",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "A bottleneck in operations management is a point in the production process where the capacity is less than the demand placed on a resource. This creates a constraint that limits the overall process capacity. The impact of a bottleneck is significant as it restricts the flow of production, leading to potential delays and reduced throughput. To increase throughput, it is essential to identify and address the bottleneck, as saving time on a bottleneck resource is the only way to enhance the overall production capacity.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.3333333333333333,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.9284473982518128,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "20",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "The term for a strategy designed to fulfill present requirements without jeopardizing the ability of future generations to meet their own needs is a \"sustainable strategy.\"",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.9682009755959752,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "21",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "The copyright holder for the material 'A Framework for Structuring Supplier Relationships' is McGraw-Hill Education.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.9340085322604565,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "22",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "In a Pull-based system, work releases are authorized based on the current system status, focusing on actual customer demand and inventory consumption. This approach inherently controls the work-in-progress (WIP) level and observes throughput, allowing for agile responses to changes in demand. In contrast, a Push-based system schedules work releases based on forecasted demand and predetermined schedules. It is inherently driven by due dates and controls the release rate while observing the WIP level. Consequently, the Pull system is more adaptive and responsive to real-time changes, whereas the Push system is more rigid and dependent on forecasts.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.5555555555555556,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.89506280484096,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "23",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "CONWIP has several advantages over a pure push system for organizations that transform inputs into outputs:\n\n1. **Directly Observable WIP Level**: Unlike a push system where the release rate must be set based on unobservable capacity, CONWIP allows for direct observation of WIP levels.\n\n2. **Reduced Average WIP**: It requires less work-in-progress to achieve the same throughput, minimizing inventory costs.\n\n3. **Ability to Work Ahead**: It facilitates working ahead of schedule under favorable circumstances, enhancing flexibility.\n\n4. **WIP Cap Establishment**: As a pull system, CONWIP establishes a WIP cap, preventing unnecessary WIP production and improving throughput efficiency.\n\nThese benefits lead to cost reductions, improved quality, better customer service, and increased flexibility.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.6666666666666666,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.9393295568608444,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "24",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "In manufacturing environments subject to frequent changes in market conditions, the primary distinctions between Push and Pull-based systems lie in their planning and execution approaches. Push-based systems, often using MRP/ERP, develop a plan that is pushed through the system based on assumptions of constant conditions, available capacity, and inventory. This approach tends to be rigid and can become obsolete when market conditions change. In contrast, Pull-based systems, such as Kanban, focus on executing customer orders and are designed to be agile. They adapt to actual customer demand, emphasizing capacity and material planning to quickly respond to changes, making them more suitable for dynamic environments.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.970302636742644,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "25",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "In the context of operations management as discussed in the 7th edition of Operations Management by Nigel Slack, Alistair Brandon-James, and Robert Johnston, overlapping is significant because it reduces lead time by allowing part of a lot to be processed on the second operation's work center while the rest is still being processed in the first operation. This is similar to parallel processing and helps in improving efficiency.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.5,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.96561293340501,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "26",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "I do not know the answer to this question.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "27",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "I do not know the answer to this question.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "28",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "I do not know the answer to this question.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "29",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "The five main process activities in operations and supply chain management, based on the provided context, are Planning, Sourcing, Making, Delivering, and Returning.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.9450371481890715,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "30",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "The topic of the content in the provided excerpts from McGraw-Hill Education is supply chain uncertainty and related concepts. This includes strategies to cope with supply uncertainty, the flow of material in a supply chain, cost estimation including procurement and disposal, and supply chain categorization based on demand and supply uncertainty (efficient, risk-hedging, responsive, and agile supply chains). Additionally, it discusses the bullwhip effect and specific aspects such as sourcing, inventory management, and product life cycles.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.1111111111111111,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.8732690804075417,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "31",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "The primary difference between Push-based and Pull-based systems in production environments is their approach to planning and execution. Push-based systems are planned and executed based on forecasts and schedules, often using MRP or ERP systems, making them rigid and less adaptable to changes. They assume constant conditions and resources, which can lead to obsolescence if market conditions change. In contrast, Pull-based systems, such as Kanban, are driven by actual customer demand, focusing on execution and being agile enough to quickly respond to changes. Pull systems emphasize flow and control, aiming for efficiency and adaptability, as seen in the Toyota Production System and Lean Manufacturing.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.8333333333333334,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.9155741440021513,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "32",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "I do not know the answer to this question.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "33",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "eKanban systems in supply chain management provide several benefits, particularly impacting inventory reductions, lead times, and purchase order cycles. These systems help reduce inventory levels, leading to significant cost savings by ensuring the right amount of inventory is maintained through real-time tracking and demand adjustments. They shorten lead times by enabling faster communication and more efficient processes across the supply chain. Additionally, eKanban systems streamline purchase order cycles by automating and optimizing the replenishment process, allowing for quicker response times and fewer administrative burdens. Overall, they enhance supply chain efficiency and responsiveness.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.8888888888888888,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.9189511182111995,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "34",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "The assumptions of the CONWIP model are that it involves a single routing and measures work-in-progress (WIP) in units.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.8718862030997956,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "35",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "The current issues in operations and supply chain management, according to your lecture notes, include:\n\n1. Coordinating relationships between mutually supportive but separate organizations.\n2. Optimizing global supplier, production, and distribution networks.\n3. Managing customer touch points.\n4. Raising senior management awareness of operations and supply chain management as a significant competitive weapon.\n5. Sustainability and the triple bottom line.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.919216600270221,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "36",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "Yes, the 'Pareto Chart' mentioned in the 2017 McGraw-Hill Education copyright notes is the same chart referenced in your operations management lecture notes.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.9633486552210714,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "37",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "The main feature of a Closed-loop MRP system is that it provides feedback to the capacity plan, master production schedule, and production plan to ensure that planning remains valid at all times.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.9082052772271144,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "38",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "Little\u2019s Law is a mathematical formula used in operations management that captures the relationship between the amount of inventory within a process, the throughput rate (the rate at which items are produced), and the flow time (the time it takes for an item to pass through the process). In the context of production process mapping, Little's Law can be expressed as:\n\n\\[ \\text{Inventory} = \\text{Throughput Rate} \\times \\text{Flow Time} \\]\n\nThis relationship helps in understanding how changes in one of these variables affect the others and is fundamental in analyzing and optimizing production processes.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.5,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.8980117335385099,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "39",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "In operations and supply chain management, forecasting is crucial for making informed management decisions across various functions. There are four basic types of forecasts used in this field:\n\n1. **Qualitative Forecasts**: These rely on expert judgment and opinions rather than numerical data.\n2. **Time Series Analysis**: This method uses historical data to predict future demand, assuming that past patterns will continue.\n3. **Causal Relationships**: This approach identifies and utilizes relationships between variables to forecast future trends.\n4. **Simulation**: This involves creating models to simulate various scenarios and predict future outcomes.\n\nEach type of forecast plays a role in functions such as finance, marketing, and production by helping to budget, plan new products, select suppliers, and manage inventory and staffing.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.5,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.8874588626977152,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "40",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "The assumptions for CONWIP are: 1) Single routing and 2) WIP (Work in Process) is measured in units. In terms of modeling, CONWIP looks like a closed queueing network.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.9551142484692298,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "41",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "The duration for a unit to travel through the process from start to finish is referred to as Throughput Time. The four basic work measurement techniques are:\n\n1. Time study\n2. Work sampling\n3. Predetermined motion-time data system\n4. Elemental data",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.9160817775119633,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "42",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "The major concepts that define the Operations and Supply Chain Management (OSCM) field include the manufacturing strategy paradigm, lean manufacturing, just-in-time (JIT) and total quality control (TQC), service quality and productivity, total quality management and quality certification, business process reengineering, six sigma quality, supply chain management, electronic commerce, and sustainability with the triple bottom line. The business strategy in this field includes social, economic, and environmental criteria.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.9117966481269356,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "43",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "Manual Kanban systems use physical Kanban cards for each unit of inventory, acting as replenishment signals located in item bins, shelves, pallets, etc. Electronic Kanban, or eKanban systems, are software-based and automate these processes. The main difference between a Pull and Push-based system is that a Kanban system \"pulls\" inventory and work through the system based on actual customer demand, whereas a Push system schedules production based on forecasts.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.5,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.9129560724577965,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 0.75,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "44",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "Goldratt's Rule 6 of Production Scheduling states that bottlenecks govern both throughput and inventory in the system. This means that the performance of bottlenecks directly affects the overall output and the amount of inventory held in the production system.\n\nGoldratt's Rule 3, on the other hand, states that utilization and activation of a resource are not the same. This means that just because a resource is being used (activation) does not mean it is being used effectively towards productive output (utilization).\n\nThe difference lies in that Rule 6 focuses on the impact of bottlenecks on the entire system's efficiency, while Rule 3 distinguishes between merely using a resource and using it effectively to contribute to the system\u2019s productivity.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.3333333333333333,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.9518780443935898,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "45",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "The copyright for 'Measuring Process Performance' is held by McGraw-Hill Education and it was registered in 2017.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.5,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.9625360874769867,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "46",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "I do not know the answer to this question.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "47",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "I do not know the answer to this question.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "48",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "The formula for calculating the total average value of inventory is the sum of the value of raw materials, work-in-process, and finished goods inventory. Little\u2019s Law relates to production process mapping by establishing a long-term relationship among inventory, throughput, and flow time, expressed as: Inventory = Throughput rate x Flow time.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.8933376613192564,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "49",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "The Kaizen philosophy is a Japanese approach focused on continuous improvement. Kaizen bursts are specific short-term projects, often referred to as \"Kaizen events,\" that teams work on to implement changes to a process.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.9563752026338804,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "50",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "I do not know the answer to this question.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "51",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "I do not know the answer to this question.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "52",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "Valuable lessons to be learned include:\n\n1. How to size K-Loops by determining the appropriate number of Kanbans in a process.\n2. Utilizing Spike Kanban Cards to quickly manage inventory during sudden demand increases.\n3. Knowing when to remove Kanban Cards as demand decreases.\n4. Identifying important data for monitoring line performance.\n5. Understanding the impact of changes in supplier performance and lead-times on K-Loop sizing.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.8,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.9747899513831318,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "53",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "The maximum capacity of the restaurant is 160 people at a time.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.8946152844486545,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "54",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "Operations and Supply Chain Management (OSCM) is the design, operation, and improvement of the systems that create and deliver the firm's primary products and services. It is a functional field of business with clear management responsibilities, focusing on managing the entire production and delivery system.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.7848470630090709,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "55",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "I do not know the answer to this question.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "56",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "I do not know the answer to this question.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "57",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "I do not know the answer to this question.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "58",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "The total capacity for each bus is 80 passengers (50 seated and 30 standing). If 30 buses are considered, they can accommodate a total of 2,400 individuals.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.8754772514553126,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        },
+        {
+            "task_id": "59",
+            "model_id": "OpenAI/gpt-4o/txt-03-large",
+            "model_response": "I do not know the answer to this question.",
+            "annotations": {
+                "faithfulness": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "answer_relevancy": {
+                    "system": {
+                        "value": 0.0,
+                        "duration": 0
+                    }
+                },
+                "context_precision": {
+                    "system": {
+                        "value": 0.9999999999,
+                        "duration": 0
+                    }
+                },
+                "context_recall": {
+                    "system": {
+                        "value": 1.0,
+                        "duration": 0
+                    }
+                }
+            }
+        }
+    ]
+}

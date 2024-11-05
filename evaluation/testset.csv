@@ -1,0 +1,18 @@
+id,question,reference_answer,reference_context,conversation_history,metadata
+93010e46-6df0-434c-bffe-2854c62b1976,What are the learning objectives of Chapter 11 in the McGraw-Hill Education material?,"The learning objectives of Chapter 11 are: 1) Evaluate why it is important to map processes. 2) Compare different types of processes. 3) Explain how jobs are designed. 4) Analyze manufacturing, service, and logistics processes to ensure the competitiveness of a firm.","Document 55: Copyright ©2017 McGraw- Hill Education. All rights reserved.CHAPTER 11: PROCESS 
+MAPPING AND ANALYSIS 
+LO11 –1: Evaluate why it is important to map processes.
+LO11 –2: Compare different types of processes.
+LO11 –3: Explain how jobs are designed.
+LO11 –4: Analyze manufacturing, service, and logistics 
+processes to ensure the competitiveness of a firm.
+McGraw -Hill/Irwin
+
+Document 100: Copyright ©2017 McGraw -Hill Education. All rights reserved.CHAPTER 11: PROCESS 
+ANALYSIS 
+LO11 –4: Analyze manufacturing, service, and logistics 
+processes to ensure the competitiveness of a firm.
+McGraw -Hill/Irwin
+
+Document 59: Copyright ©2017 McGraw- Hill Education. All rights reserved.Why do we map processes?
+.",[],"{'question_type': 'simple', 'seed_document_id': 55, 'topic': 'Process Mapping and Analysis'}"

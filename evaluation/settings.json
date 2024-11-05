@@ -1,0 +1,10 @@
+"python.testing.pytestArgs": [
+    "C:\Users\dhruv\Desktop\Akshay Tut\llm\evaluation\settings.json"  // Replace with your actual source code directory
+],
+"python.testing.autoTestDiscoverOnSaveEnabled": true,
+"files.exclude": {
+    "**/.venv": true
+},
+"search.exclude": {
+    "**/.venv": true
+}
