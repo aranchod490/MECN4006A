@@ -72,7 +72,6 @@ def user_input(user_question):
 
 def main():
     st.set_page_config("Wits MIA Chatbot")
-    st.image("image.jpeg", use_column_width=True)
     st.header("MIA NoteWise – Your Personalized Lecture Assistant")
 
     user_question = st.text_input("Ask a question from the uploaded notes")
@@ -81,7 +80,6 @@ def main():
         user_input(user_question)
 
     with st.sidebar:
-        st.image("wits.png", use_column_width=True)
         st.title("Menu:")
         pdf_docs = st.file_uploader("Upload your lecture notes here", accept_multiple_files=True)
         if st.button("Submit & Process"):
